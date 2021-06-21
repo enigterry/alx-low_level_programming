@@ -8,11 +8,11 @@
  */
 int main(void)
 {
-putchar c;
-for (c = '0'; c <= '9'; c++)
+int i;
+for (i = 0; i < 10; i++)
 {
-	putchar(c);
+	putchar("%i", i);
 }
-putchar('\n');
+putchar("\n");
 return (0);
 }
